@@ -19,8 +19,8 @@ so the final big O is O(N)
 
 Q2 Bonus Question [optional]
 You are considering giving gifts to more people. Instead of choosing exactly 2 items, allow for 3 gifts.
-
-A: I modify the code slightly to include a third item 
-i is used to travers the vector untill vector.size()-2, it represents the first item.
-left and right are used to represent the remaining two items.
+A: ASSUMING there are at least tree items in the prices.txt
+ I modify the code slightly to include a third item 
+'i' is used to travers the vector untill vector.size()-2, it represents the first item.
+left and right are used to represent the remaining two items after 'i'.
 the big O for this code is O(N^2) As for every i, I traverse its coresponding left and right once
